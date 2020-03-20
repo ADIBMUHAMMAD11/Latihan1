@@ -1,11 +1,21 @@
+<?php
+
+	// Variabel dan tipe data
+	// Variabel = digunakan untuk menyimpan data
+	// Aturan variabel ' tidak boleh diawali dengan angka,tapi boleh mengandung angka'
+
+	$nama = "Muhammad adib lutfi";
+	?>
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Belajar Php</title>
+	<title>
+		Belajar Php
+	</title>
 </head>
 <body>
-<?php
-	echo "<h1>Selamat datang,Muhammad Adib<h1>";
-	?>
+ "<h1>Hallo, Selamat datang<?php echo $nama; ?><h1>
+	
 </body>
-</html>>
+</html>
