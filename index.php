@@ -1,7 +1,10 @@
 <?php
-$nama = "muhammad adib lutfi";
-
-echo "Hallo Selamat datang $nama </br>"; #petik dua
-echo 'Hallo,Selamat datang $nama'; #petik satu
-
+Operator Aritmatika 
+$x = 10;
+$y = 20;
+	echo $x + $y ;
+	echo $x - $y ;
+	echo $x * $y ;
+	echo $x / $y ;
+	echo $x % $y ;
 ?>
