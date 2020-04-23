@@ -1,36 +1,21 @@
 <?php
-//operator perbandingan
-	var_dump(1 < 5) ;
-		echo "</br>";
+<?php
+$angka=8;
 
-	var_dump(1 > 5) ;
-		echo "</br>";
-		
-	var_dump(1 <= 5) ;
-		echo "</br>";
-		
-	var_dump(1 >= 5) ;
-		echo "</br>";
-		
-	var_dump(1 == 5) ;
-		echo "</br>";
-		
-	var_dump(1 != 5) ;
-		echo "</br>";
-	
+echo "nilai angka= $angka";
+echo "<br>";
+echo $angka+2;
+echo "<br>";
+echo $angka-2;
+echo "<br>";
+echo $angka+22;
+echo "<br>";
+echo $angka+2;
+echo "<br>";
+echo $angka+3;
+echo "<br>";
+echo $angka+2;
 
-//operator identitas		
-	var_dump(1 === "1");
-		echo "</br>";
 
-	var_dump(1 !== "1");
-		echo "</br>";
-		
-//operator logika
-	$x = 10;
-	var_dump($x < 20 && $x % 2 == 0);
-		echo "</br>";
 
-	var_dump($x < 20 && || $x % 2 == 0);
-		echo "</br>";														
 ?>
